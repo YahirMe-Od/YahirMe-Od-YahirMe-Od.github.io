@@ -1,0 +1,16 @@
+body{
+    font-family: Arial;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+span{
+    color: red;
+}
+#intro{
+    font-size: 20px;
+    text-align: justify;
+}
