@@ -1,16 +1,18 @@
-body{
-    font-family: Arial;
-}
-#info{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+#header{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    justify-content: space-between;
+    background: #473243;
+    color: #BCB2C4;
+    width: 100%;    
 }
-span{
-    color: red;
+#searchContainer{
+    display: flex;
+    gap: 108px;
 }
-#intro{
-    font-size: 20px;
-    text-align: justify;
+#menu{
+    margin-right: 40px;
 }
