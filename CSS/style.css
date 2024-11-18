@@ -1,18 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
-#header{
-    display: flex;
-    font-family: "Source Code Pro", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
-    justify-content: space-between;
-    background: #473243;
-    color: #BCB2C4;
-    width: 100%;    
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+body {
+  background-color: #473243;
+  margin: 0px;
+  padding: 0px;
 }
-#searchContainer{
-    display: flex;
-    gap: 108px;
+#header {
+  display: flex;
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  justify-content: space-between;
+  background: #473243;
+  color: #bcb2c4;
+  width: 95%;
+  padding: 24px;
+  margin-top: -30px;
 }
-#menu{
-    margin-right: 40px;
+#searchContainer {
+  display: flex;
+  gap: 30px;
 }
+#menu {
+  margin-right: 40px;
+}
+
