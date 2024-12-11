@@ -114,6 +114,45 @@ body {
 #footer-blog{
     margin-top: 251px;
     display: flex;
+    gap: 108px;
+}
+#menu{
+    margin-right: 40px;
+}
+#blog{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    margin-left: 80px;
+}
+#info-blog{
+    color: #BCB2C4;
+}
+#subinformacion{
+    border: 1px solid white;
+    width: 56vh;
+    height: 68vh;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#Yahir{
+    font-size: 11px;
+    padding: 19px;
+    box-sizing: border-box;
+    margin-bottom: -48px;
+}
+#subsub{
+    padding: 19px;
+    box-sizing: border-box;
+    margin-top: -42px;
+}
+#infoViking{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#VIKING{
+    font-size: 20px;
+}
+#footer-blog{
+    margin-top: 251px;
+    display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     margin-left: 24px;
