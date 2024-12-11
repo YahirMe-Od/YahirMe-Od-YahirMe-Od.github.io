@@ -36,6 +36,23 @@ body {
 #menu {
   margin-right: 40px;
 }
+#search-bar {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  background: transparent;
+  color: #bcb2c4;
+}
+#search-bar::placeholder {
+  color: #bcb2c4;
+}
+#search-bar::-webkit-search-cancel-button {
+  display: none;
+}
 #bienvenido {
   background-image: url(../IMG/Captura\ de\ pantalla\ 2024-11-17\ 213912.png);
   background-position: center;
