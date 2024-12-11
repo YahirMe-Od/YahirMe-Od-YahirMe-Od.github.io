@@ -4,6 +4,18 @@ body {
   background-color: #473243;
   margin: 0px;
   padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+}
+#header{
+    display: flex;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    justify-content: space-between;
+    background: #473243;
+    color: #BCB2C4;
+    width: 100%;    
 }
 #header {
   display: flex;
@@ -67,4 +79,44 @@ body {
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+#blog{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    margin-left: 80px;
+}
+#info-blog{
+    color: #BCB2C4;
+}
+#subinformacion{
+    border: 1px solid white;
+    width: 56vh;
+    height: 68vh;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#Yahir{
+    font-size: 11px;
+    padding: 19px;
+    box-sizing: border-box;
+    margin-bottom: -48px;
+}
+#subsub{
+    padding: 19px;
+    box-sizing: border-box;
+    margin-top: -42px;
+}
+#infoViking{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#VIKING{
+    font-size: 20px;
+}
+#footer-blog{
+    margin-top: 251px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-top: 1px solid;
 }
