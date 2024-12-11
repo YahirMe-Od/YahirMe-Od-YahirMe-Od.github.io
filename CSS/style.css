@@ -41,4 +41,47 @@ body {
 #search-bar::-webkit-search-cancel-button {
   display: none;
 }
+#bienvenido {
+  background-image: url(../IMG/Captura\ de\ pantalla\ 2024-11-17\ 213912.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: -27px;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Filtro negro con 50% de opacidad */
+  background-blend-mode: overlay;
+}
+#title {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 11vh;
+  width: 110vh;
+  text-align: center;
+  margin-bottom: -12px;
+  margin-top: 0px;
+}
+#infoViking {
+  margin-top: 0px;
+  font-family: 'Arial';
+}
+#iniciar{
+    background: transparent;
+    color: white;
+    border: 1px white solid;
+    width: 170px;
+    height: 58px;
+    font-family: 'Arial';
+    margin-top: 8px;
+    cursor: pointer;
+}
+#iniciar:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
